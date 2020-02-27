@@ -1,0 +1,29 @@
+{
+  "name": "tailwindcss-crush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss src/css/ -w -d public/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rectmoon/tailwindcss-crush.git"
+  },
+  "keywords": [],
+  "author": "Rectmoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rectmoon/tailwindcss-crush/issues"
+  },
+  "homepage": "https://github.com/Rectmoon/tailwindcss-crush#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
