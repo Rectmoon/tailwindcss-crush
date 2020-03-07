@@ -4,19 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "postcss src/css/ -w -d public/css/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rectmoon/tailwindcss-crush.git"
+    "start": "postcss src/css/ -w -d public/css/",
+    "serve": "vue serve src/main.js"
   },
   "keywords": [],
   "author": "Rectmoon",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rectmoon/tailwindcss-crush/issues"
-  },
-  "homepage": "https://github.com/Rectmoon/tailwindcss-crush#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "postcss-cli": "^7.1.0",
